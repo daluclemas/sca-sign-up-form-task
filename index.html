@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+
+    <link rel="shortcut icon" href="SCAA.jpg">
+    <link rel="stylesheet" href="fontawesome/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"defer></script>
+</head>
+<body>
+
+    <div class="main-container">
+
+        <div class="loader-container">
+            <div class="pre-loader">
+                <div class="loader"></div>
+                <div class="loader"></div>
+                <div class="loader"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+
+            <div class="header-container col-12 col-7">
+                <!--header logo-->
+
+                <div class="header-img">
+                    <img src="SCAA.jpg" alt="header" class="logo">
+                </div>
+
+                <!--header text-->
+                <div class="header">
+                    <h1 class="header-text">sign up here</h1><hr>
+                </div> 
+            </div>
+
+
+            <!--h3 will not show on tab and mobile view but will show on ipad pro and desktop-->
+
+            <div class="form-container col-12 col-6">
+
+                <form method="POST" class="forms col-5">
+
+                    <div class="first-name inp">
+                        <h3>first name :</h3>
+
+                        <input type="text" placeholder="first-name" class="fname inputs">
+
+                        <p class="fnamediv"></p>
+
+                    </div>
+
+                    <div class="last-name inp">
+
+                        <h3>last name :</h3>
+
+                        <input type="text" placeholder="last-name" class="lname inputs">
+
+                        <p class="lnamep"></p>
+
+                    </div>
+
+                    <div class="dates inp">
+
+                        <h3>date of birth :</h3>
+
+                        <input type="date" class="dob inputs">
+
+                        <p class="feedback"></p>
+
+                    </div>
+
+                    <div class="gender">
+
+                        <div class="male">
+                            <h3>male :</h3>
+                            <input type="radio" name="gender" id="genderM">
+                        </div>
+
+                        <div class="female">
+                            <h3>female :</h3>
+                            <input type="radio" name="gender" id="genderF">
+                        </div>
+
+                    </div>
+
+
+                    <div class="emails inp">
+                        <h3>e-mail :</h3>
+
+                        <input type="email" class="email inputs" placeholder="e-mail">
+
+                        <p class="emailp"></p>
+
+                    </div>
+
+                    <div class="cemails inp">
+
+                        <h3> confirm e-mail :</h3>
+
+                        <input type="email" class="cemail inputs" placeholder="confirm e-mail">
+
+                        <p class="cemailp"></p>
+
+                    </div>
+
+                    <div class="passwords inp">
+
+                        <h3>password :</h3>
+
+                        <input type="password" class="password inputs" placeholder="password">
+
+                        <p class="passwordp"></p>
+                    </div>
+
+                    <div class="cpasswords inp">
+
+                        <h3>confirm password :</h3>
+
+                        <input type="password" class="cpassword inputs" placeholder="confirm password">
+
+                        <p class="cpasswordp"></p>
+                    </div>
+
+                    <div class="terms">
+
+                        <input type="checkbox" name="tandc" id="tc" class="tc">
+
+                        <p class="paragraph">
+                            i agree to the <a href="#">terms</a> of the group
+                        </p>
+
+                    </div>
+
+                    <div class="btn-container">
+                        <button class="btn" disabled>sign-up</button>
+                    </div>
+
+                </form>
+
+                <div class="login-container col-5">
+                    <p>
+                        already have an account ? <a href="#">login</a>
+    
+                    </p>
+                </div>
+            </div>
+
+            <!-- <div class="login-container col-12">
+                <p>
+                    already have an account ? <a href="#">login</a>
+
+                </p>
+            </div> -->
+            
+
+        </div>
+    </div>
+    
+</body>
+</html>
